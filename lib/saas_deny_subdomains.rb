@@ -1,5 +1,7 @@
 require "saas_deny_subdomains/version"
+require "saas_deny_subdomains/model_additions"
+require "saas_deny_subdomains/railtie" if defined? Rails
 
 module SaasDenySubdomains
-  # Your code goes here...
+  # Hello world!
 end
