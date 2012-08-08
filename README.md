@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'saas_deny_subdomains'
+    gem "saas_deny_subdomains"
 
 And then execute:
 
@@ -18,12 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Call `deny_subdomains` in an ActiveRecord class and pass the name of the attribute you wish to validate against the list of subdomains.
+
+```ruby
+class Account < ActiveRecord::Base
+  deny_subdomains :subdomains
+end
+```
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Fork it & Create a new Pull Request  :)
