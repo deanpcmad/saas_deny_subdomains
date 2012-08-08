@@ -1,6 +1,6 @@
-# SaasDenySubdomains
+# SaaS Deny Subdomains
 
-TODO: Write a gem description
+This gem runs a validation in a Ruby on Rails app on a specified field and denies a user from setting a subdomain as one of the following [here]().
 
 ## Installation
 
