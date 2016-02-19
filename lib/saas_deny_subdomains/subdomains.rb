@@ -11,8 +11,9 @@ module SaasDenySubdomains
 			sub5 = %w(redirect random public registration resolver rss sandbox search server servers service signin signup sitemap sitenews sites sms sorry ssl staging development)
 			sub6 = %w(stats statistics graph graphs survey surveys talk trac git svn translate upload uploads video validation validations email webmaster ww wwww www1 www2 feeds)
 			sub7 = %w(secure demo i img img1 img2 img3 css1 css2 css3 js js1 js2)
+			sub8 = %w(billing calendar forum imap login manage mx pages press videos kb knowledgebase)
 
-			subdomains = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7
+			subdomains = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8
 		end
 
 	end
